@@ -26,7 +26,7 @@ Hence, we will be ensuring that the file is securely transmitted from the client
 ## Further Explanation
 The figure below gives the basis of a possible authentication protocol. There’s one problem with the protocol, however: there is the possibility of a playback attack on the client. Further, the identity of the client is not verified by the server and can be easily spoofed by an imposter (ServerWithoutSecurity.java, ClientWithoutSecurity.java).
 
-<img width="361" alt="performance" src="https://user-images.githubusercontent.com/23626462/38912976-f25601a6-430a-11e8-806f-b2226f388797.png">
+<img width="502" alt="wrong" src="https://user-images.githubusercontent.com/23626462/38912968-ec851a32-430a-11e8-8e4f-0e032ef97484.png">
 
 The fixed version of the AP protocol is implemented on top of the file upload program.
 
@@ -71,4 +71,4 @@ CP-2
 
 Comparison of performance:
 
-<img width="502" alt="wrong" src="https://user-images.githubusercontent.com/23626462/38912968-ec851a32-430a-11e8-8e4f-0e032ef97484.png">
+<img width="361" alt="performance" src="https://user-images.githubusercontent.com/23626462/38912976-f25601a6-430a-11e8-806f-b2226f388797.png">
