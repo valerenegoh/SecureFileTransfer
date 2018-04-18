@@ -30,8 +30,7 @@ The figure below gives the basis of a possible authentication protocol. There’
 
 The fixed version of the AP protocol is implemented on top of the file upload program. Asymmetric key cryptography is used to authenticate the identity of both the server and the client. The client will first send a nonce request to the server which the server will then encrypt with its private key before sending it back. To decrypt the encrypted nonce, the client will request for the server’s signed certificate. The decrypted reply from the server will be matched against the nonce initially transmitted by the client to the server. If they match, the client can be assured of the identity of the server and that there is an absence of playback attack. The server will then perform the same tasks to authenticate the identity of the client as well. The above procedure is shown below:
 
-
-![corrected](https://user-images.githubusercontent.com/23626462/38912967-ec0c6376-430a-11e8-9b2f-338998dd470d.png)
+![corrected](https://user-images.githubusercontent.com/23626462/38945487-31f2fc7a-4369-11e8-992c-f00141c89a91.jpeg)
 
 ## How to run the program
 Running on IntelliJ:
